@@ -1,6 +1,5 @@
 require "paypal_express_checkout/version"
-require 'active_support'
-require 'active_support/core_ext'
+require 'active_support/core_ext/hash'
 
 module PaypalExpressCheckout
   ENDPOINT = {
@@ -59,17 +58,17 @@ module PaypalExpressCheckout
 		@@config[:discount_rate_cart] 	 = '' #Discount percentage [15]
 
     #Customer Information
-		@@config[:first_name] 		= '';
-		@@config[:last_name] 		  = '';
-		@@config[:address1] 		  = '';
-		@@config[:address2] 		  = '';
-		@@config[:city] 			    = '';
-		@@config[:state] 			    = '';
-		@@config[:zip] 				    = '';
-		@@config[:email] 			    = '';
-		@@config[:night_phone_a] 	= '';
-		@@config[:night_phone_b] 	= '';
-		@@config[:night_phone_c] 	= '';
+		@@config[:first_name] 		= ''
+		@@config[:last_name] 		  = ''
+		@@config[:address1] 		  = ''
+		@@config[:address2] 		  = ''
+		@@config[:city] 			    = ''
+		@@config[:state] 			    = ''
+		@@config[:zip] 				    = ''
+		@@config[:email] 			    = ''
+		@@config[:night_phone_a] 	= ''
+		@@config[:night_phone_b] 	= ''
+		@@config[:night_phone_c] 	= ''
 
     options.each do |key, val|
       @@config[key.to_sym] = val
