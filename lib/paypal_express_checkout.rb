@@ -58,7 +58,7 @@ module PaypalExpressCheckout
 		@@config[:discount_amount_cart]  = 0 #Discount amount [9.99]
 		@@config[:discount_rate_cart] 	 = '' #Discount percentage [15]
 
-    #Customer Information -->
+    #Customer Information
 		@@config[:first_name] 		= '';
 		@@config[:last_name] 		  = '';
 		@@config[:address1] 		  = '';
