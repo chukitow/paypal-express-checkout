@@ -22,7 +22,7 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-PaypalExpressCheckout.sanbox! # enables sandbox in development or test
+PaypalExpressCheckout.sandbox! # enables sandbox in development or test
 
 # Check the configuration options
 PaypalExpressCheckout.configure({
