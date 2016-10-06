@@ -42,7 +42,7 @@ PaypalExpressCheckout.add_product({
 redirect_to PaypalExpressCheckout.payment_url # generate the url that the user need to be redirected to complete the purchase
 ```
 
-# Confiruation options
+# Configuration options
 
 ###### Account information
 * ***business***: account email or id
@@ -60,7 +60,7 @@ redirect_to PaypalExpressCheckout.payment_url # generate the url that the user n
 
 ###### Payment Page Information
 * ***return***: The URL to which PayPal redirects buyers after they complete their payments.
-* ***cancel_return***: Specify a URL on your website that displays payment cancelation page
+* ***cancel_return***: Specify a URL on your website that displays payment cancellation page
 * ***notify_url***: The URL to which PayPal posts information about the payment (IPN)
 * ***lc***:  Languaje [En,Es] - default En
 
