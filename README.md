@@ -1,4 +1,5 @@
 # Paypal Express Checkout
+[![Build Status](https://travis-ci.org/chukitow/paypal-express-checkout.svg?branch=master)](https://travis-ci.org/chukitow/paypal-express-checkout)
 
 Simple handler for PayPal Express Checkout
 
